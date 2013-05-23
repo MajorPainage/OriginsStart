@@ -1,0 +1,14 @@
+42b19916f3871eaa0ffb5e7636f77401 -1 Teleporting/Mass Killing
+8995adcb3c135f334b21f268d50145ee -1 Hacking
+99a25c9a398e636ed1d9f8f699e6d123 -1 Hacking
+f700ff2b59644276073be5afcdc10faa -1 Hacking
+ae147d8ee774e98dbdc750e7cc3b4ba8 -1 Hacking
+3128c237b428ff5efb3a01ee53d5b8c6 -1 Hacking
+00e511921b7b9219be286f12d56166f7 -1 Hacking
+ee639ae367c33277ff6e5f404ec038ce -1 Hacking
+68023e50f813925189158a37ba5f9f69 -1 Compulsive Hacker
+8fe9f76715cbe498b0b4be4b37443206 -1 Compulsive Hacker
+3d923918dd9eddf921b1ae1abc414e18 -1 Hacker
+a055a3f3c526c53c8f8f9b1c1de2b1a5 -1 Hacking
+7b6bbdba69eaf164914d31c16203ca0a -1 Hacking
+1f26c69aef7e16537e1e25e08c4ea893 -1 Hacking 
