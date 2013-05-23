@@ -1,4 +1,4 @@
-OriginsStart
+Origins Start Server Script
 ============
 
 Requirements:
