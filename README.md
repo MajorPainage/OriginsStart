@@ -18,3 +18,6 @@ Installation:
 --- Edit line 30 and replace C:\YOUR\GAMESERVER\FOLDER\LOCATION with what you put between the quotes on line 16.<br>
 --- In line 30, you can remove --cbl or --dwarden options if you don't want to use these ban lists, but more makes for a safer server.<br>
 - Edit line 36 and replace <SERVER IP> with your own server ip.
+
+
+NOTE:  You can remove any portion you don't want to use.
