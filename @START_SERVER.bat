@@ -5,9 +5,22 @@ ping 127.0.0.1 -n 5 >NUL
 echo.
 echo.
 echo.
+echo Stopping BEC...
+taskkill /F /IM Bec.exe
+ping 127.0.0.1 -n 5 >NUL
+echo.
+echo.
+echo.
 echo Cleanup and respawn vehicles in the Origins DB hive...
 cd /D "C:\YOUR\MYSQL\FOLDER\LOCATION"
 mysql.exe --user=dayz --password=<PASSWORD> --execute="call pCleanup()" dayz_origins
+ping 127.0.0.1 -n 5 >NUL
+echo.
+echo.
+echo.
+echo Starting BEC...
+cd /D "C:\YOUR\BEC\FOLDER\LOCATION"
+start Bec.exe -f Config_Origins.cfg
 ping 127.0.0.1 -n 5 >NUL
 echo.
 echo.
