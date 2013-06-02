@@ -11,4 +11,6 @@ ee639ae367c33277ff6e5f404ec038ce -1 Hacking
 3d923918dd9eddf921b1ae1abc414e18 -1 Hacker
 a055a3f3c526c53c8f8f9b1c1de2b1a5 -1 Hacking
 7b6bbdba69eaf164914d31c16203ca0a -1 Hacking
-1f26c69aef7e16537e1e25e08c4ea893 -1 Hacking 
+1f26c69aef7e16537e1e25e08c4ea893 -1 Hacking
+1e94d1667a9fd7f06ec0624992dd9d4b -1 Dev Hacking
+0be2d85f31bc2c9011fa0e3958f7ad78 -1 Dev Hacking
