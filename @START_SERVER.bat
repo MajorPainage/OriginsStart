@@ -13,11 +13,6 @@ echo.
 echo.
 echo Cleanup and respawn vehicles in the Origins DB hive...
 cd /D "C:\YOUR\MYSQL\FOLDER\LOCATION"
-mysql.exe --user=dayz --password=<PASSWORD> --execute="call pCleanup()" dayz_origins
-mysql.exe --user=dayz --password=<PASSWORD> --execute="call pMain()" dayz_origins
-mysql.exe --user=dayz --password=<PASSWORD> --execute="call pMain()" dayz_origins
-mysql.exe --user=dayz --password=<PASSWORD> --execute="call pMain()" dayz_origins
-mysql.exe --user=dayz --password=<PASSWORD> --execute="call pMain()" dayz_origins
 mysql.exe --user=dayz --password=<PASSWORD> --execute="call pMain()" dayz_origins
 ping 127.0.0.1 -n 5 >NUL
 echo.
