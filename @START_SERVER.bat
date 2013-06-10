@@ -32,6 +32,17 @@ ping 127.0.0.1 -n 5 >NUL
 echo.
 echo.
 echo.
+echo Creating a backup of your database...
+FOR /F "tokens=1-4 DELIMS=/ " %%F IN ('date /T') DO (set v_date=%%F%%G%%H) 
+FOR /F "tokens=1-4 DELIMS=: " %%F IN ('time /T') DO (set v_time=%%F%%G%%H) 
+set fname=database_backup_%v_date%_%v_time%.sql 
+echo %v_time% 
+echo %fname% 
+C:\YOUR\MYSQLDUMP\LOCATION\bin\mysqldump -u dayz -p dayz_origins --password=<PASSWORD> --result-file="C:\YOUR\ORIGINS\ROOT\FOLDER\LOCATION\db_backups\%fname%"
+ping 127.0.0.1 -n 5 >NUL
+echo.
+echo.
+echo.
 echo Starting server...
 start .\Expansion\beta\arma2oaserver.exe -ip=<SERVER IP> -beta=Expansion\beta;Expansion\beta\Expansion -nosplash -cpuCount=6 -name=Origins -profiles=dayz_1.origins.tavi -cfg=dayz_1.origins.tavi\basic.cfg -config=dayz_1.origins.tavi\config.cfg -mod=expansion;expansion\beta;expansion\beta\expansion;@DayzOrigins;@dayz_1.origins.tavi
 ping 127.0.0.1 -n 5 >NUL
