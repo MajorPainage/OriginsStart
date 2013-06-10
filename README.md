@@ -17,7 +17,10 @@ Installation:
 --- Edit line 29 inside the quotes and put your folder loaction for your game server (eg.  "C:\Gameservers\Origins")<br>
 --- Edit line 30 and replace C:\YOUR\GAMESERVER\FOLDER\LOCATION with what you put between the quotes on line 16.<br>
 --- In line 30, you can remove --cbl or --dwarden options if you don't want to use these ban lists, but more makes for a safer server.<br>
-- Edit line 36 and replace <SERVER IP> with your own server ip.
+- Edit line 41 and replace C:\YOUR\MYSQLDUMP\LOCATION with your location of your mysqldump.exe file.<br>
+- Edit line 41 and replace <PASSWORD> with your db password.<br>
+- Edit line 41 and replace C:\YOUR\ORIGINS\ROOT\FOLDER\LOCATION with the location of your rool folder for your game server.<br>
+- Edit line 47 and replace <SERVER IP> with your own server ip.
 
 
 NOTE:  You can remove any portion you don't want to use.
