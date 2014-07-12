@@ -27,7 +27,7 @@ echo.
 echo.
 echo Updating Origins banlist...
 cd /D "C:\YOUR\GAMESERVER\FOLDER\LOCATION"
-perl update_bans.pl --save "C:\YOUR\GAMESERVER\FOLDER\LOCATION\dayz_1.origins.tavi\BattlEye\bans.txt" --banz --cbl --dwarden --mybans "C:\YOUR\GAMESERVER\FOLDER\LOCATION\mybanz.txt" --verbose
+perl update_bans.pl --save "C:\YOUR\GAMESERVER\FOLDER\LOCATION\dayz_1.origins.tavi\BattlEye\bans.txt" --cbl --dwarden --mybans "C:\YOUR\GAMESERVER\FOLDER\LOCATION\mybanz.txt" --verbose
 ping 127.0.0.1 -n 5 >NUL
 echo.
 echo.
